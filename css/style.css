@@ -1,0 +1,183 @@
+.main{
+    display: flex;
+    width: 70%;
+    margin: 150px auto;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #f0f2f5;
+}
+img{
+    width: 160px;
+}
+.left p{
+    margin-left: 5%;
+    margin-right: 15%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+    width: 500px;
+}
+.registration{
+    display: flex;
+    width: 395px;
+    height: 350px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+
+}
+.registration input{
+    width: 364px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding-left: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+    height: 52px;
+    outline: none;
+    transition: 0.2s;
+}
+input[type=email]:hover{
+    border: 1px solid #1877f2;
+}
+input[type=password]:hover{
+    border: 1px solid #1877f2;
+}
+.login{
+    margin-top: 15px;
+    background-color: #1877f2;
+    width: 379px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.login:hover{
+    background-color: rgb(20, 20, 241);
+}
+.registration a{
+    color: #1877fe;
+    font-size: 14px;
+    font-weight: 500px;
+    text-decoration: none;
+    margin-top: 18px;
+    font-family: inherit;
+}
+.line{
+    border-bottom: 1px solid #dadde1;
+
+}
+.newaccount{
+    width: 230px;
+    height: 48px;
+    background-color: #42b72a;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+    font-family: inherit;
+    color: white;
+    font-weight: bold;
+    margin-top: 18px;
+    transition: 0.2s;
+}
+.newaccount:hover{
+    background-color: rgb(27, 134, 27);
+
+}
+.createpage{
+   text-align: center;
+   margin-top:20px;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 75%;
+}
+.createpage a{
+    color: black;
+}
+.div1 input{
+    width: 175px;
+    height: 46px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    display: inline-fle;
+ }
+.div1{
+    width: 100%;
+}
+.logo{
+    margin-top: 40px;
+
+}
+.navigation{
+    display: inline-flex;
+}
+.divblock{
+    border-radius: 6px;
+    background-color: white;
+    width: 31%;
+    margin: auto;
+    height: auto;
+}
+.divblock input{
+    width: 444px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.button2{
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 235px;
+    margin-bottom: 15px;
+}
+.divblock p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.divblock h3{
+    margin-left: 10px;
+}
+.deactiv{
+    width: 45%;
+    height: 30px;
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+.search{
+    width: 45%;
+    height: 30px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+input[type=phonenumber]:hover{
+    border: 1px solid #1877f2;
+}
+.search:hover{
+    background-color: rgb(52, 52, 252);
+}
+.deactiv:hover{
+    background-color: rgba(174, 173, 173, 0.899);
+}
