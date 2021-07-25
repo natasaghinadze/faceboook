@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1280px){
+    .leftp{
+        display: none;
+    }
+    .createpage{
+        display: none;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .image{
+        margin: auto;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        background-color: #FFFF;
+    }
+    .registration input {
+        width: 416px;
+        height: 41.6px;
+        background-color: #f5f6f7;
+        border: none;
+    }
+    .login{
+        width: 435px;
+        height: 41.6px;
+    }
+    .newaccount{
+        width: 191.45px;
+        height: 36px;
+        font-size: 14px;
+    }
+    .hiidenline{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        height: 20px;
+        align-items: center;
+        width: 416px;
+    }
+
+}

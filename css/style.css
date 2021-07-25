@@ -21,7 +21,7 @@ body{
 img{
     width: 160px;
 }
-.left p{
+.leftp{
     margin-left: 5%;
     margin-right: 15%;
     font-size: 28px;
@@ -82,7 +82,18 @@ input[type=password]:hover{
 }
 .line{
     border-bottom: 1px solid #dadde1;
-
+}
+.hiidenline{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    width: 380px;
+    display: none;
+}
+.line1{
+    border-bottom: 1px solid rgb(134, 103, 103);
+    width: 180px;
 }
 .newaccount{
     width: 230px;
